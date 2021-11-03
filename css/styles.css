@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body::after {
+	content: '';
+	width: 50vw;
+	height: 50vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-bottom-left-radius: 3rem;
+	background-color: hsl(207, 33%, 95%);
+	z-index: -1;
+}
+
+a {
+	display: block;
+}

@@ -15,6 +15,9 @@ module.exports = {
 				barlow: "'Barlow', sans-serif",
 				'barlow-condensed': "'Barlow condensed', sans-serif",
 			},
+			letterSpacing: {
+				wow: '.25em',
+			},
 		},
 	},
 	variants: {
